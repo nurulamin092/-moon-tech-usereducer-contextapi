@@ -11,7 +11,7 @@ const routes = createBrowserRouter([
         element:<Main/>,
         children:[
             {
-                path:'home',
+                path:'/',
                 element:<Home/>
             }
             ,
@@ -24,7 +24,7 @@ const routes = createBrowserRouter([
                 element: <Cart/>              
             },
             {
-                path:'topRate',
+                path:'top-rated',
                 element:<TopRated/>
             }
         ]
